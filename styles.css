@@ -1,0 +1,18 @@
+body
+{
+    
+}
+.rectangle
+{
+    width: max-content;
+    height: max-content;
+    background: #E1E5EA;
+    padding: 20px;
+    opacity: 90%;
+    margin-top: 25%;
+}
+#intro
+{
+    background-color: black;
+    padding-bottom: 20%;
+}
