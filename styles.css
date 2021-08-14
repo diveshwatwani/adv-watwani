@@ -72,3 +72,16 @@
     background-color:black;
     
 }
+#specialised .card
+{
+    background-color: #F5F5F5;
+}
+#team
+{
+    background-color: black;
+    color: white;
+}
+#team .card
+{
+    background-color: black;
+}
