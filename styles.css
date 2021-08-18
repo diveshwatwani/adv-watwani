@@ -97,8 +97,11 @@
     background-color:black ;
     color: white;
     padding: 5%;
-    border-right: #f5f5f5 solid 1px
-    
+}
+.border-card-dsn
+{
+    border-left: #f5f5f5 solid 1px;
+    border-right: #f5f5f5 solid 1px;
 }
 
 
@@ -132,14 +135,14 @@
         font-size: 1.3rem;
     }
 
-    .team-card
+    .border-card-dsn
     {
-        background-color:black ;
-        color: white;
-        padding: 5%;
+        border-left: 0cm;
+        border-right: 0cm;
         border-bottom: #f5f5f5 solid 1px;
-        border-right:0cm;
+        border-top:#f5f5f5 solid 1px;
     }
+
   }
   @media only screen and (device-width: 768px) {
     /* For general iPad layouts */
@@ -150,14 +153,15 @@
         font-weight: bolder;
         font-size: 1.5rem;
     }
-    .team-card
+    .border-card-dsn
     {
-        background-color:black ;
-        color: white;
-        padding: 5%;
-        border-bottom: #f5f5f5 solid 1px;
+        border-left:0cm;
         border-right:0cm;
+        border-top: #f5f5f5 solid 1px;
+        border-bottom: #f5f5f5 solid 1px;
+      
     }
+
   }
   @media only screen and (device-width: 1024px) {
     /* For medium size laptops */
