@@ -36,6 +36,12 @@
     height: 4px;
     background-color: black;
 }
+.team-margin
+{
+    padding-right: 620px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
 
 /* Counter-in-website */
 
@@ -69,30 +75,32 @@
 }
 
 /* ////////////////////////// ABOUT HIMSELF SECTION ////////////////////////// */
-#aboutHimself_id
-{
-    background-color:black;
-    
-}
-#specialised .card
-{
-    background-color: #F5F5F5;
-}
-#team
+.main-himself
 {
     background-color: black;
     color: white;
 }
-#team .card
+
+
+
+/* ////////////////////////// VW TEAM SECTION ////////////////////////// */
+.main-vwTeam
 {
     background-color: black;
+    padding: 5%;
+    color: white;
+    
 }
-.team-margin
+
+.team-card
 {
-    padding-right: 620px;
-    font-weight: bolder;
-    font-size: 1.5rem;
+    background-color:black ;
+    color: white;
+    padding: 5%;
+    border-right: #f5f5f5 solid 1px
+    
 }
+
 
 
 
@@ -123,6 +131,15 @@
         font-weight: bolder;
         font-size: 1.3rem;
     }
+
+    .team-card
+    {
+        background-color:black ;
+        color: white;
+        padding: 5%;
+        border-bottom: #f5f5f5 solid 1px;
+        border-right:0cm;
+    }
   }
   @media only screen and (device-width: 768px) {
     /* For general iPad layouts */
@@ -132,6 +149,14 @@
         padding-right: 250px;
         font-weight: bolder;
         font-size: 1.5rem;
+    }
+    .team-card
+    {
+        background-color:black ;
+        color: white;
+        padding: 5%;
+        border-bottom: #f5f5f5 solid 1px;
+        border-right:0cm;
     }
   }
   @media only screen and (device-width: 1024px) {
