@@ -41,7 +41,7 @@
 
 .counter {
     background-color:#f5f5f5;
-    padding: 20px 0;
+    padding: 3%;
     border-radius: 5px;
 }
 
@@ -67,6 +67,8 @@
     display: table;
     color: #4ad1e5;
 }
+
+/* ////////////////////////// ABOUT HIMSELF SECTION ////////////////////////// */
 #aboutHimself_id
 {
     background-color:black;
@@ -85,3 +87,60 @@
 {
     background-color: black;
 }
+.team-margin
+{
+    padding-right: 620px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+
+/* ////////////////////////// MEDIA QUERIES SECTION ////////////////////////// */
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+   /* This layout is for Phones */
+    body #intro_id h2
+    {
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    body #aboutHimself_id img
+    {
+        width: 150%;
+    }
+    body .line
+    {
+        margin-top: 2px;
+        width: 55px;
+        height: 4px;
+        background-color: black;
+    }
+    .team-margin
+    {
+        padding-right: 40px;
+        font-weight: bolder;
+        font-size: 1.3rem;
+    }
+  }
+  @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+
+    .team-margin
+    {
+        padding-right: 250px;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+  }
+  @media only screen and (device-width: 1024px) {
+    /* For medium size laptops */
+    .team-margin
+    {
+        padding-right: 370px;
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+    
+  }
