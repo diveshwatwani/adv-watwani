@@ -1,4 +1,10 @@
 
+.navbar
+{
+    border-bottom: black solid 5px;
+    font-size: 1.3rem;
+}
+
 .rectangle
 {
     width: max-content;

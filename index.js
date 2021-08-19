@@ -116,13 +116,13 @@ anime.timeline({loop: true})
     targets: '.ml11 .line',
     translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
     easing: "easeOutExpo",
-    duration: 700,
-    delay: 100
+    duration: 1000,
+    delay: 500
   }).add({
     targets: '.ml11 .letter',
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 600,
+    duration: 800,
     offset: '-=775',
     delay: (el, i) => 34 * (i+1)
   }).add({
